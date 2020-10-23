@@ -9,7 +9,7 @@
 #include "Student.h"
 #include "Datatype.h"
 #include "Pointers/Dogspointer.h"
-#include "TEmp.h"
+#include "Temp.h"
 
 using namespace std;
 
@@ -29,6 +29,6 @@ int main() {
 //    datatype.showdatatype();
     Dogspointer dogs;
 //    dogs.showpointers1();
-    TEmp tEmp;
+    Temp tEmp;
     tEmp.study();
 }

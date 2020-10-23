@@ -6,7 +6,7 @@
 #define CPP1_TEMP_H
 
 
-class TEmp {
+class Temp {
 public:
     int study();
 

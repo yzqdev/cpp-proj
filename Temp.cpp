@@ -2,13 +2,12 @@
 // Created by yanni on 2019/6/19.
 //
 
-#include "TEmp.h"
-#include <stdio.h>
+#include "Temp.h"
 #include <iostream>
 
 using namespace std;
 
-int TEmp::study() {
+int Temp::study() {
 #if 0
     int m = 5, n = 6;
     swapfunc(&m, &n);
@@ -23,7 +22,7 @@ int TEmp::study() {
 #endif
 }
 
-void TEmp::swapfunc(int *a, int *b) {
+void Temp::swapfunc(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
@@ -33,7 +32,7 @@ void TEmp::swapfunc(int *a, int *b) {
  * @param a
  * @param b
  */
-void TEmp::swapfun(int a, int b) {
+void Temp::swapfun(int a, int b) {
     int t = a;
     a = b;
     b = t;

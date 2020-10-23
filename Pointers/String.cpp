@@ -2,7 +2,6 @@
 // Created by yanni on 2019/6/21.
 //
 #include <iostream>
-#include <windows.h>
 #include <cstdio>
 #include "String.h"
 
