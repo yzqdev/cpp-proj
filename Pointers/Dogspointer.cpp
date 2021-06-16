@@ -52,17 +52,17 @@ void Dogspointer::showpointers1() {
     cout <<"\n";
 #endif
 #if 1
-    int n=4;
-    int *p=new int[n];
-    char *s=(char *)p;
-    char ch='a';
-    int n2=n* sizeof(int)/ sizeof(char);
-    cout <<n2<<"\t"<< sizeof(int)<<endl;
+    int n = 4;
+    int *p = new int[n];
+    char *s = (char *) p;
+    char ch = 'a';
+    int n2 = n * sizeof(int) / sizeof(char);
+    cout << n2 << "\t" << sizeof(int) << endl;
     for (int i = 0; i < n2; ++i) {
-        s[i]=ch+i;
+        s[i] = ch + i;
     }
-    for (char *r=s+n2;s<r;s++) {
-        cout <<*s;
+    for (char *r = s + n2; s < r; s++) {
+        cout << *s;
     }
     delete[] p;
 #endif

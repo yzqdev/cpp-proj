@@ -23,7 +23,7 @@ public:
 
     void fileoperate1();
 
-    void swap(int *x, int *y);
+    static void swap(int *x, int *y);
 
     void transfer();
 
