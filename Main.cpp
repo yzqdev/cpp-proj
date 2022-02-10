@@ -1,7 +1,6 @@
 #include <iostream>
 #include "NumOperate.h"
 #include "FileOperate.h"
-#include "func/Pointers.h"
 #include "MyExcetion.h"
 #include "Peektest.h"
 #include "langpack/Clang.h"
