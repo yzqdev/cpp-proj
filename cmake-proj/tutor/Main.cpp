@@ -17,7 +17,8 @@ using namespace std;
 int main() {
     Clang clang;
     Cpplang cpplang;
-    cpplang.transfer();
+//    cpplang.transfer();
+    cpplang.openTxt();
 //    cpplang.print('4',5);
 //    cpplang.ctemplate();
 //    cpplang.cpplang2();

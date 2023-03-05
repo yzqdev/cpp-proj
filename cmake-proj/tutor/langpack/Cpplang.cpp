@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void Cpplang::cpplang1() {
+void Cpplang::openFile() {
     string s = "hello", s2("world");
     cout << s.size() << endl;
     string s3 = s.substr(1, 3);
@@ -47,7 +47,23 @@ cout <<*p<<a<<endl;
 cout <<p<<&a<<endl;
 }
 
-void Cpplang::cpplang5() {
+void Cpplang::openTxt() {
+    ifstream readFile;
+    readFile.open("D:\\Documents\\a.log", ios::in);
+
+    if (readFile.is_open())
+    {
+        cout << "文件打开成功！" << endl;
+        char buff[1000] = { 0 };
+        while (readFile >>buff)
+        {
+            cout << buff << endl;
+        }
+    }
+    else
+    {
+        cout << "文件打开失败！" << endl;
+    }
 
 }
 

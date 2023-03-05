@@ -8,7 +8,7 @@
 
 class Cpplang {
 public:
-    void cpplang1();
+    void openFile();
 
     void cpplang2();
 
@@ -16,7 +16,7 @@ public:
 
     void cpplang4();
 
-    void cpplang5();
+    void openTxt();
 
     void cpplang6();
 
@@ -30,7 +30,9 @@ public:
     void overload();
 
     void print(char c, int i);
+
     void ctemplate();
+
     void sendpocket();
 };
 

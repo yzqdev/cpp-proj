@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.13)
-project(cpp1)
+project(ctutor)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(INC_DIR ~\\ClionProjects\\cpp1\\include)
-set(LINK_DIR ~\\Codes\\ClionProjects\\cpp1\\lib)
+#set(INC_DIR ~\\ClionProjects\\cpp1\\include)
+#set(LINK_DIR ~\\Codes\\ClionProjects\\cpp1\\lib)
 
 include_directories(${INC_DIR})
 link_directories(${LINK_DIR})
